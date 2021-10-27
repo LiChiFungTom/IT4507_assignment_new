@@ -77,7 +77,22 @@ public class Main {
             System.out.println("Selling price:");
             int price =sc.nextInt();
             System.out.println("Sold "+ qty+"boxes of "+pname+".Current quantity is "+qty+"Selling price is $"+price);
+         }else if(commend == "l"){
+            System.out.println("Undo List:");
+            // list of undo list
+            
+            System.out.println("Redo List:");
+            // list of redo list
+         }else if(commend =="u"){
+           System.out.println("Undo completed.");
+           //undo execute 
+         }else if(commend == "r"){
+           System.out.println("Redo completed");
+           //redo execite
+         }else if(commend =="x"){
+           System.
          }
+          
 
     }
 }
