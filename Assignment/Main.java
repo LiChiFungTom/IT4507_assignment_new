@@ -5,6 +5,8 @@ public class Main {
     
     public static void main(String[] args) {
         
+        String pname;
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Toy Inventory Management System (TIMS)");
@@ -66,7 +68,15 @@ public class Main {
              int qty =sc.nextInt();
              System.out.println("Purchasing cost:");
              int cost = sc.nextInt();
-             System.out.println("Purchased"+qty+"Box of "+"name"+".Current quantity is $"+cost+".Price is $"+ToyProduct.price);
+             System.out.println("Purchased"+qty+"Box of "+pname+".Current quantity is $"+cost+".Price is $"+ToyProduct.price);
+         }else if(commend == "s"){
+            System.out.println("Enter code:");
+            int code = sc.nextInt();
+            System.out.println("Quantity to be sold:");
+            int qty =sc.nextInt();
+            System.out.println("Selling price:");
+            int price =sc.nextInt();
+            System.out.println("Sold "+ qty+"boxes of "+pname+".Current quantity is "+qty+"Selling price is $"+price);
          }
 
     }
