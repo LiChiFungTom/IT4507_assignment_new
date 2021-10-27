@@ -59,7 +59,15 @@ public class Main {
                 System.out.println("Price($): " );  // price
             }
             
-        }
+        }else if(commend =="p"){
+             System.out.println("Enter code:");
+             int code = sc.nextInt();
+             System.out.println("Quantity to purchased:");
+             int qty =sc.nextInt();
+             System.out.println("Purchasing cost:");
+             int cost = sc.nextInt();
+             System.out.println("Purchased"+qty+"Box of "+);
+         }
 
     }
 }
