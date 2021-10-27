@@ -90,7 +90,7 @@ public class Main {
            System.out.println("Redo completed");
            //redo execite
          }else if(commend =="x"){
-           System.
+           System.exit(0);
          }
           
 
