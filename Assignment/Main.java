@@ -66,7 +66,7 @@ public class Main {
              int qty =sc.nextInt();
              System.out.println("Purchasing cost:");
              int cost = sc.nextInt();
-             System.out.println("Purchased"+qty+"Box of "+"name"+".Current quantity is $"+cost+".Price is $"+);
+             System.out.println("Purchased"+qty+"Box of "+"name"+".Current quantity is $"+cost+".Price is $"+ToyProduct.price);
          }
 
     }
