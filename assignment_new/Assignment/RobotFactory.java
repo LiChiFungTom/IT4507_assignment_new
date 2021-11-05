@@ -8,8 +8,8 @@ public class RobotFactory implements ToyProductFactory{
     public ToyProduct createProduct(Scanner sc){
         System.out.println("Enter id");
         int id = sc.nextInt();
-        System.out.println("Enter name");
-        String name = sc.next();
+        System.out.println("Enter name"+sc.nextLine());
+        String name = sc.nextLine();
         System.out.println("Enter height(cm)");
         double height = sc.nextDouble();
         System.out.println(id+","+name+","+height);
