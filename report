@@ -5,7 +5,7 @@ Assignment Report In addition to the system development，you are required to wr
    First the system can be show all products in list also can change value in list
    such as price , quality , price , cost.
    Second , the system can check the user input which is can't input valus.For example 
-   the product_ID can't input again.Also the user only can input correct 
+   the product_ID can't input again.Also the user only can input correct data type value. S
    
 
 2. Application design with class diagram
