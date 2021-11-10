@@ -38,7 +38,11 @@ Assignment Report In addition to the system development，you are required to wr
    It will be display the information of the product such as price,name,id,quantity,height/Maxspeed,cost.
 
 
-   
+   User input p command:
+
+   The system ask the user input the product_ID(which one they want to change)
+   And that ask them what quantity to be purchased ,what cost is purchasing.
+   When finish all the will print a result which they are changed.
    
    
 
