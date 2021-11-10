@@ -60,7 +60,12 @@ Assignment Report In addition to the system development，you are required to wr
 
    User input r command:
 
-   The system will redo one command system which is the system already undo a command
+   The system will redo one command system which is the system already undo a command.If the user didn't undo a command but the user input 
+   r command the system will output a remind(nothing to redo).
+
+   User input l command:
+
+   The system will list out all the undo list and redo list .
 
    
    
