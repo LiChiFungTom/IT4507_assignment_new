@@ -7,7 +7,9 @@ Assignment Report In addition to the system development，you are required to wr
    Second , the system can check the user input which is can't input valus.For example 
    the product_ID can't input again.Also the user only can input correct data type value. Such as
    the product_ID should be input a number, name should be a string.
-   Third, the user only can do something before the user undo and redo the command .
+   Third, the user only can do something before the user undo and redo the command.For example, if user star using the
+   system, input the undo  command , the system will get them a remind(nothing to undo), else the user already did something 
+   ,then they can do the undo command.One the other hand, the redo command is same local with undo command.
    
 
 2. Application design with class diagram
