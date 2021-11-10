@@ -3,7 +3,7 @@ Assignment Report In addition to the system development，you are required to wr
   有咩前設/預設( user input 咩地方唔用得 )
 
    First the system can display all products in list and can change value in list
-   such as price , quality , price , cost.
+   such as price , quality , cost.
    Second , the system can check the user input which is can't input valus.For example 
    the product_ID can't input again.Also the user only can input correct data type value. Such as
    the product_ID should be input a number, name should be a string.
