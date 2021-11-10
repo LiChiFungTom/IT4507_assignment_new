@@ -55,7 +55,12 @@ Assignment Report In addition to the system development，you are required to wr
    User input u command:
 
    The system undo one command which is system already do command. If the user didn't anything before,they system will 
-   get a remind.For example 
+   get a remind.For example , user input u when just start began user the system , the system will output a remind
+   (Nothing to undo).
+
+   User input r command:
+
+   The system will redo one command system which is the system already undo a command
 
    
    
