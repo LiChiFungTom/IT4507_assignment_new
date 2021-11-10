@@ -21,6 +21,26 @@ Assignment Report In addition to the system development，you are required to wr
 
 4. User Guide 
   說明書
+   
+   User can input a command(c,d,p,s,u,r,l,x)
+   
+   When User input c command:
+   Than will ask the user which one should be create and that input a string(ro/rc)
+   user input ro , it will create a Robot product ,otherwise user input rc,it will create
+   Remote Control Car.
+   
+   User input d command:
+   System will ask the user display which product(*/ product_ID)
+   If the user input a *,
+   It will be display all the toy products such as price,name,ID,quantity, other infor,cost
+   
+   If the user input a product_ID,
+   It will be display the information of the product such as price,name,id,quantity,height/Maxspeed,cost.
+
+
+   
+   
+   
 
 5. Test Plan and Test Cases 
   
