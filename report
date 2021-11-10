@@ -65,7 +65,12 @@ Assignment Report In addition to the system development，you are required to wr
 
    User input l command:
 
-   The system will list out all the undo list and redo list .
+   The system will list out all the undo list and redo list.If the list is empty ,it will display empty otherwise 
+   it will display the list of redo or undo list.
+
+   User input x command:
+
+   The system will exit .
 
    
    
