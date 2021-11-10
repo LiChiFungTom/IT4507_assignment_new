@@ -51,6 +51,12 @@ Assignment Report In addition to the system development，you are required to wr
    
    The system will ask for user to input the product_id ,what quantity should to sold and the price selling for.
    When the user finish input all the value , it will should the result which is the user already change.
+
+   User input u command:
+
+   The system undo one command which is system already do command. If the user didn't anything before,they system will 
+   get a remind.For example 
+
    
    
 
